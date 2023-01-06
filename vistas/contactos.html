@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap" rel="stylesheet">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+</style>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contactos</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="./index.html">
+            <img src="../img/LOGOJOKERHD200x200.png" alt="LOGO" class="header__logo">
+        </a>
+        <nav class="header__nav" >
+            <ul class="header__list">
+                <li class="header__item"><a href="../index.html" class="header__anchor">HOME</a></li>
+                <li class="header__item"><a href="./artistas.html" class="header__anchor">ARTISTS</a></li>
+                <li class="header__item"><a href="./tienda.html" class="header__anchor">STORE</a></li>
+                <li class="header__item"><a href="./podcast.html" class="header__anchor">MINIMALCAST</a></li>
+                <li class="header__item"><a href="./contactos.html" class="header__anchor">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+   <main class="main__contactos">   
+       <div>
+           <h2>¿Queres ser parte de JOKER BLACK LABEL? envianos este formulario</h2>
+       </div>
+       <form action="" method="GET" enctype="multipart/form-data">
+            <fieldset>
+                <legend>Informacion Personal</legend>
+                <span>Sexo:</span>
+                <div>
+                    <label for="userSex">Hombre</label>
+                    <input type="radio" name="userSex" id="userSex" value="masculino">
+                    <label for="userSex">Mujer</label>
+                    <input type="radio" name="userSex" id="userSex" value="femenino">
+                </div>
+                <div>
+                    <label for="userName">Nombre:</label>
+                    <div>
+                        <input type="text" name="userName" id="userName" required> 
+                    </div>
+                </div>
+                <div>
+                    <label for="userLastname">Apellido:</label>
+                    <div>
+                        <input type="text" name="userLastname" id="userLastname" required>
+                    </div>
+                </div>
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div>
+                    <label for="age">Edad:</label>
+                    <input type="number" name="age" id="age" min="15" max="120" step="1" required>
+                </div>
+                <div>
+                    <label for="date">Fecha de nacimiento:</label>
+                    <input type="date" name="date" id="date" min="1950-05-13" required>
+                </div>
+                <div>
+                    <b>Genero favorito:</b>
+                    <div>
+                        <label for="house">House</label>
+                        <input type="checkbox" name="house" id="house">
+                    </div>
+                    <div>
+                        <label for="psytrance">Psytrance</label>
+                        <input type="checkbox" name="psytrance" id="psytrance">
+                    </div>
+                    <div>
+                        <label for="techno">Techno</label>
+                        <input type="checkbox" name="techno" id="techno">
+                    </div>
+                </div>
+                <div>
+                    <label for="eyecolor">Color de ojos</label>
+                    <select name="eyecolor" id="eyecolor">
+                        <option value="green">Verde</option>
+                        <option value="brown">Marron</option>
+                        <option value="Blue">Azul</option>
+                        <option value="byakugan">Byakugan</option>
+                    </select>
+                </div>
+                <div>
+                    <label for="bio">Bio</label>
+                    <div>
+                        <textarea name="bio" id="bio" cols="30" rows="10"></textarea>
+                    </div>
+                </div>
+                <div>
+                    <label for="url">Url</label>
+                    <input type="url" name="url" id="url">
+                </div>
+                <input type="reset" value="Reiniciar Formulario">
+                <input type="submit" value="Enviar Formulario">
+             </fieldset>
+       </form>
+   </main>
+   <footer class="footer">
+    <h3>Joker Black Label copyright 2022 ©</h3>
+    </footer>
+
+</body>
+</html>
