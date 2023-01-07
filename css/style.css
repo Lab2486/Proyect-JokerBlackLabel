@@ -314,5 +314,59 @@ h1.podcast_title {
 
 
 
+/* RESPONSIVE */
+
+
+
+@media screen and ( max-width: 768px){
+    .header{
+        width: 100%;
+    }
+
+    .index__title{
+        font-size: 1.5rem;
+    }
+
+    .index__main{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .index__info{
+        text-align: center;
+    }
+
+    .contenedor__indeximg {
+        align-self: center;
+    }
+
+    .index__img{
+        width: 400px;
+        padding-bottom: 40px;
+    }
+
+
+
+    .main__artistas{
+        display: flex;
+    }
+
+    .artist__contenedor{
+        grid-template-columns: 1fr;
+    }
+
+
+}
+ 
+
+
+
+
+
+
+
+
+
+
 
 
