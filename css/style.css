@@ -291,6 +291,19 @@ table{
     color: white;
 }
 
+.ep__block tr th li a:hover{
+    color: red;
+}
+
+
+h1.podcast_title {
+    text-align: center;
+    font-size: 3rem;
+    padding-bottom: 40px;
+}
+
+
+
 
 
 
