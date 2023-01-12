@@ -15,4 +15,34 @@ body{
 
 .titulos{
     font-family: 'Zen Dots', cursive;
+    text-decoration: overline;
+    text-decoration-color: whitesmoke;
+    
+    
 }
+
+
+.subtitles{
+    font-family: 'Zen Dots', cursive;
+}
+
+.card-body a:hover{
+    color: darkred;
+}
+
+.card-body a{
+    font-size: 25px;
+    color: black;
+}
+
+
+.iconos__card{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+
+
+
+
