@@ -46,6 +46,27 @@ body{
     flex-direction: column;
 }
 
+.ep__img{
+    width: 300px;
+}
+
+
+audio {
+    width: 100%;
+}
+
+.carrito__icono{
+    color: black;
+}
+
+.carrito__icono:hover{
+    color: red;
+}
+
+
+
+
+
 
 
 
