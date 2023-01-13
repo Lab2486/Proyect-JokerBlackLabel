@@ -42,6 +42,10 @@ body{
 }
 
 
+.index__parrafos{
+    flex-direction: column;
+}
+
 
 
 
