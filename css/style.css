@@ -63,7 +63,33 @@ audio {
     color: red;
 }
 
+.minimalcast_titulos{
+    font-family: 'Michroma', sans-serif;
+}
 
+
+.footer__soundcloud{
+    color: orangered;
+
+}
+
+.footer__youtube{
+    color: red;
+}
+
+.footer__bandcamp{
+    color: lightskyblue;
+}
+
+.footer__instagram{
+    color: palevioletred;
+}
+
+footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+}
 
 
 
