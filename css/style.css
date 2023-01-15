@@ -93,16 +93,10 @@ footer{
 }
 
 
-.header__navanchor{
+.nav-link{
     font-family: 'Teko', sans-serif;
     font-size: 2rem;
     
-}
-
-.header__navanchor:hover {
-    
-    text-shadow: 0 0.1rem 0.4rem rgb(255 0 0);
-    font-size: 1.2rem;
 }
 
 .navbar-toggler{
@@ -114,6 +108,15 @@ footer{
     padding: 1rem;
 
 }
+
+
+
+
+
+
+
+
+
 
 
 
