@@ -29,6 +29,7 @@ body{
 
 .card-body a:hover{
     color: darkred;
+    transform: scale(1.1);
 }
 
 .card-body a{
