@@ -1,0 +1,25 @@
+{
+  "name": "proyecto-final",
+  "version": "1.0.0",
+  "description": "paquete node para compilar scss a css",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "node-sass --include-path scss sass/origen.scss css/compilado.css",
+    "watch-css": "nodemon -e scss -x \"npm run build-css\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lab2486/Proyect-JokerBlackLabel.git"
+  },
+  "author": "Lucas Aballay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lab2486/Proyect-JokerBlackLabel/issues"
+  },
+  "homepage": "https://github.com/Lab2486/Proyect-JokerBlackLabel#readme",
+  "devDependencies": {
+    "node-sass": "^8.0.0",
+    "nodemon": "^2.0.20"
+  }
+}
