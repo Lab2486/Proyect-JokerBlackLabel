@@ -1,1 +1,22 @@
-/*PRUEBA DE FUNCIONAMIENTO DE SASS*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  background-image: url(/img/Dark-Background.jpg); }
+
+.header {
+  color: white;
+  background: pink .header __logo;
+    background-border-radius: 50%; }
+  .header__anchor {
+    color: white; }
+  .header__navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between; }
+  .header__ul {
+    margin: 0; }
+  .header__li {
+    list-style: none; }

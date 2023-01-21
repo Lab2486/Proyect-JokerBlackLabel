@@ -1,0 +1,41 @@
+.header{
+    color: white;
+    background: pink
+    
+
+    &__logo{
+        border-radius: 50%;
+    }
+
+    &__anchor{
+        color: $blanco;
+    }
+
+    &__navbar{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &__ul{
+        margin: 0;
+    }
+
+    &__li{
+        list-style: none;
+    }
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
