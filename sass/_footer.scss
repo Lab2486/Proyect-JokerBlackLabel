@@ -1,0 +1,19 @@
+.footer{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(60, 60, 60);
+
+    &__items{
+        color:white;
+    }
+
+    &__texto{
+        color:white;
+        font-size: 10px;
+        margin: 0;
+        align-self: center;
+    }
+    
+
+
+}

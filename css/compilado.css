@@ -1,22 +1,156 @@
+.titulos {
+  color: #ed0007;
+}
+
+.subtitulos {
+  color: #fc0042;
+}
+
+.texto {
+  color: #ffffff;
+}
+
+.special {
+  color: #ffc813;
+}
+
+.black {
+  color: #f000;
+}
+
+.grey {
+  color: #1e1e1e;
+}
+
 * {
   padding: 0;
   margin: 0;
-  box-sizing: border-box; }
+  box-sizing: border-box;
+}
+
+.header__logo {
+  border: 1px solid gray;
+  border-radius: 50%;
+  transform: rotateY(0deg);
+  transition: transform 1s;
+}
+
+.header__logo:hover {
+  transform: rotateY(360deg);
+}
+
+.nav-link {
+  font-family: 'Teko', sans-serif;
+  font-size: 2rem;
+  color: white;
+}
+
+.nav-link:hover {
+  color: red;
+}
+
+.ul__nav {
+  align-items: center;
+  gap: 20px;
+}
+
+.burger {
+  background-color: #ed0007;
+  border-radius: 20%;
+}
 
 body {
-  background-image: url(/img/Dark-Background.jpg); }
-
-.header {
+  background-image: url(../img/background2.jpg);
   color: white;
-  background: pink .header __logo;
-    background-border-radius: 50%; }
-  .header__anchor {
-    color: white; }
-  .header__navbar {
-    display: flex;
-    align-items: center;
-    justify-content: space-between; }
-  .header__ul {
-    margin: 0; }
-  .header__li {
-    list-style: none; }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-around;
+  background-color: #3c3c3c;
+}
+
+.footer__items {
+  color: white;
+}
+
+.footer__texto {
+  color: white;
+  font-size: 10px;
+  margin: 0;
+  align-self: center;
+}
+
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+  font-family: 'Zen Dots';
+  margin: 0;
+  text-decoration: underline;
+  text-decoration-color: white;
+  padding-bottom: 40px;
+  padding-top: 40px;
+  text-shadow: 0px 0px 10px white;
+}
+
+.titulo:hover {
+  text-shadow: 0px 0px 10px #fc004f;
+}
+
+.titulo__contenedor {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.special:hover {
+  text-shadow: 0px 0px 10px yellow;
+}
+
+.main__data {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.parrafos {
+  display: flex;
+  font-size: 1.5rem;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 30px;
+  font-family: 'Zen Dots', cursive;
+}
+
+.parrafos__info {
+  margin: 0;
+}
+
+/*Artistas*/
+.card {
+  color: white;
+  background-color: black;
+  border: 3px solid white;
+}
+
+.card__title {
+  color: red;
+}
+
+.card__iconos {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card__link {
+  color: white;
+}
+
+.card__link:hover {
+  color: red;
+  transform: scale(1.1);
+}
+
+.list_item {
+  color: pink;
+}

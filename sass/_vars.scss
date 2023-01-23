@@ -1,0 +1,28 @@
+$colores: (
+"titulos": #ed0007,
+"subtitulos": #fc0042,
+"texto": #ffffff,
+"special": #ffc813,
+"black": #f000,
+"grey":#1e1e1e ,
+);
+
+@each $nombre, $color in $colores{
+    .#{$nombre}{
+        color:#{$color};
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

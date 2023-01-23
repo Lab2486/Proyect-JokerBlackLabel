@@ -12,36 +12,47 @@
     <link rel="stylesheet" href="./css/compilado.css">
   </head>
   <body>
-    <header class="header">
-      <div class="container-fluid header__navbar">  
-
-          <img class="header__logo" src="./img/LOGOJOKERHD200x200.png" alt="Logo">
 
 
-        <div  class="header__navbar nav__items">
-          <nav>
-            <ul class="header__ul">
-              <li class="header__li">
-                <a class="header__anchor" href="">HOME</a>
-                <a class="header__anchor" href="">ARTIST</a>
-                <a class="header__anchor" href="">STORE</a>
-                <a class="header__anchor" href="">MINIMALCAST</a>
-                <a class="header__anchor" href="">CONTACT</a>
+      <header class="header">
+      <nav class="navbar navbar-expand-lg black">
+        <div class="container-fluid">
+          <a class="header__logo"  href="../index.html">
+            <img src="../img/LOGOJOKERHD200x200.png" alt="" class="header__logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon burger"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav ul__nav">
+              <li class="nav-item ">
+                <a class="nav-link" aria-current="page" href="../index.html">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./vistas/artistas.html">Artists</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./vistas/tienda.html">Store</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./vistas/podcast.html">Minimalcast</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./vistas/contactos.html">Contact</a>
               </li>
             </ul>
-          </nav>
+          </div>
         </div>
-
-      </div>
-
+      </nav>
     </header>
+  
 
 
     <main>
 
       
-      <div>
-        <h1 class="text-center text-light fs-1 fw-bold titulos pt-3 pb-3 text-danger-emphasis">JOKER BLACK LABEL</h1>
+      <div class="titulo__contenedor">
+        <a class="titulo titulos" href="#">JOKER BLACK LABEL</a>
       </div>
        
     
@@ -49,19 +60,17 @@
   
                                     <!-- parrafos(abajo) -->
         
-        <div class="row justify-content-around flex-column align-items-center">
-          <div class="col col-xxl-6 col-xl6 col-lg-6 col-md-8 p-5 d-flex index__parrafos">
-              <p class="fs-4 text-light subtitles col"><strong>Dark/ Minimal & Techno</strong> Music Label</p>
-              <p class="fs-4 text-light subtitles col">Proton Partner</p>
-              <p class="fs-4 text-light subtitles col">Based in Planet Earth</p>
-              <!-- <p class="fs-4 text-light subtitles col">Demo: jokerblacklabel@gmail.com</p> -->
-              <p class="fs-4 text-light subtitles col">Graphic Design by <a class="text-warning" href="https://www.instagram.com/lovepostar/?next=%2F">@lovepostar</a></p>
+        <div class="main__data">
+          <div class="col-7 col-xxl-6 col-xl6 col-lg-6 col-md-8 parrafos texto">
+              <p class="parrafos__info"><strong>Dark/ Minimal & Techno</strong> Music Label</p>
+              <p class="parrafos__info">Proton Partner</p>
+              <p class="parrafos__info">Based in Planet Earth</p>
+              <p class="parrafos__info">Graphic Design by <a class="parrafos special" href="https://www.instagram.com/lovepostar/?next=%2F">@lovepostar</a></p>
           </div>
    
                               <!-- carrusel (abajo) -->
   
-  
-          <div class="col col-xxl-6 col-xl6 col-lg-6 col-md-8 justify-content-center">
+          <div class="col-7 col-xxl-6 col-xl6 col-lg-6 col-md-8 justify-content-center">
               <div id="carouselExample" class="carousel slide">
                 <div class="carousel-inner">
                   <div class="carousel-item active text-center ">
@@ -90,20 +99,20 @@
     </main>
 
 
-    <footer>
+    <footer class="footer">
       <div>
-        <a href="https://soundcloud.com/joker-black-label" class="card-link footer__soundcloud"><i class="fa-brands fa-soundcloud"></i></a>
+        <a href="https://soundcloud.com/joker-black-label" class="footer__items"><i class="fa-brands fa-soundcloud"></i></a>
       </div>     
       <div>
-        <a href="https://www.youtube.com/@jokerblacklabel2091/featured" class="card-link footer__youtube"><i class="fa-brands fa-youtube"></i></a>
+        <a href="https://www.youtube.com/@jokerblacklabel2091/featured" class="footer__items"><i class="fa-brands fa-youtube"></i></a>
       </div>
       <div>
-        <a href="https://jokerblacklabel.bandcamp.com/" class="card-link footer__bandcamp"><i class="fa-brands fa-bandcamp"></i></a>
+        <a href="https://jokerblacklabel.bandcamp.com/" class="footer__items"><i class="fa-brands fa-bandcamp"></i></a>
       </div>
       <div>
-        <a href="https://www.instagram.com/jokerblacklabel/" class="card-link footer__instagram"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.instagram.com/jokerblacklabel/" class="footer__items"><i class="fa-brands fa-instagram"></i></a>
       </div>
-      <p class="text-end fs-6 text-light m-0">Copyright 2023 © Joker Black Label</p>
+      <p class="footer__texto">Copyright 2023 © Joker Black Label</p>
     </footer>
 
 

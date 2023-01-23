@@ -1,0 +1,106 @@
+.titulo{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Zen Dots';
+    margin: 0;
+    text-decoration: underline;
+    text-decoration-color: white;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    text-shadow: 0px 0px 10px white;
+    
+    &:hover{
+        text-shadow: 0px 0px 10px #fc004f;
+    }
+
+    &__contenedor{
+        text-align: center;
+        padding-bottom: 30px;
+    }
+}
+
+
+.special:hover{
+    text-shadow: 0px 0px 10px yellow;
+
+}
+
+
+.main__data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.parrafos{
+    display: flex;
+    font-size: 1.5rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding-bottom: 30px;
+    font-family: 'Zen Dots', cursive;
+
+    &__info{
+        margin: 0;
+    }
+
+}
+
+
+/*Artistas*/
+
+
+
+.card{
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+
+
+    &__title{
+        color: red;
+    }
+
+    &__iconos{
+        display: flex;
+        justify-content: space-around;
+
+    }
+
+    &__link{
+        color: white;
+    }
+
+    &__link:hover{
+        color: red;
+        transform: scale(1.1)
+
+    }
+    
+
+}
+
+
+.list_item{
+    color: pink;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

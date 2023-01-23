@@ -1,0 +1,46 @@
+.header{
+
+    &__logo{
+        border: 1px solid gray;
+        border-radius: 50%;
+        transform: rotateY(0deg);
+        transition: transform 1s;
+        
+
+        &:hover{
+            transform: rotateY(360deg);
+        }
+
+        
+    }
+}
+
+
+
+.nav-link{
+    font-family: 'Teko', sans-serif;
+    font-size: 2rem;
+    color: white;
+
+    &:hover{
+        color: red;
+    }
+    
+}
+
+
+.ul__nav{
+    align-items: center;
+    gap: 20px;
+}
+
+.burger{
+    background-color: #ed0007;
+    border-radius: 20%;
+}
+
+
+
+
+
+
