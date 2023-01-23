@@ -22,6 +22,62 @@
   color: #1e1e1e;
 }
 
+.f1 {
+  font-size: 1rem;
+}
+
+.f1-5 {
+  font-size: 1.5rem;
+}
+
+.f2 {
+  font-size: 2rem;
+}
+
+.f3 {
+  font-size: 3rem;
+}
+
+.f4 {
+  font-size: 4rem;
+}
+
+.tcenter {
+  text-align: center;
+}
+
+.tinicio {
+  text-align: initial;
+}
+
+.tend {
+  text-align: end;
+}
+
+.bgcwhite {
+  background-color: white;
+}
+
+.bgcblack {
+  background-color: black;
+}
+
+.bgcgrey {
+  background-color: grey;
+}
+
+.bgcred {
+  background-color: red;
+}
+
+.bgcyellow {
+  background-color: yellow;
+}
+
+.bgcgreen {
+  background-color: green;
+}
+
 * {
   padding: 0;
   margin: 0;
@@ -60,7 +116,7 @@
 }
 
 body {
-  background-image: url(../img/background2.jpg);
+  background-image: url(../img/background3.jpg);
   color: white;
 }
 
@@ -74,6 +130,10 @@ body {
   color: white;
 }
 
+.footer__items:hover {
+  color: #fc0042;
+}
+
 .footer__texto {
   color: white;
   font-size: 10px;
@@ -82,8 +142,6 @@ body {
 }
 
 .titulo {
-  font-size: 3rem;
-  text-align: center;
   font-family: 'Zen Dots';
   margin: 0;
   text-decoration: underline;
@@ -114,7 +172,6 @@ body {
 
 .parrafos {
   display: flex;
-  font-size: 1.5rem;
   flex-direction: column;
   align-items: center;
   gap: 40px;
@@ -151,6 +208,8 @@ body {
   transform: scale(1.1);
 }
 
-.list_item {
-  color: pink;
+/*Store*/
+.music {
+  display: flex;
+  font-size: 10px;
 }

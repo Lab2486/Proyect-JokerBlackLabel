@@ -13,6 +13,55 @@ $colores: (
     }
 }
 
+$fontsizes:(
+    "f1": 1rem,
+    "f1-5": 1.5rem,
+    "f2": 2rem,
+    "f3": 3rem,
+    "f4": 4rem,
+);
+
+
+@each $nombre, $font-size in $fontsizes{
+    .#{$nombre}{
+        font-size:#{$font-size};
+    }
+}
+
+
+
+$textalign:(
+    "tcenter": center,
+    "tinicio": initial,
+    "tend": end,
+);
+
+
+@each $nombre, $text-align in $textalign{
+    .#{$nombre}{
+        text-align:#{$text-align};
+    }
+}
+
+$background:(
+    "bgcwhite": white,
+    "bgcblack": black,
+    "bgcgrey": grey,
+    "bgcred": red,
+    "bgcyellow": yellow,
+    "bgcgreen": green,
+
+);
+
+
+@each $nombre, $color in $background{
+    .#{$nombre}{
+        background-color:#{$color};
+    }
+}
+
+
+
 
 
 

@@ -5,6 +5,10 @@
 
     &__items{
         color:white;
+
+        &:hover{
+            color: #fc0042;
+        }
     }
 
     &__texto{
