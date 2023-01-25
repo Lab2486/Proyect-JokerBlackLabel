@@ -2,7 +2,7 @@
   color: #ed0007;
 }
 
-.subtitulos {
+.lighttitulos {
   color: #fc0042;
 }
 
@@ -116,7 +116,7 @@
 }
 
 body {
-  background-image: url(../img/background3.jpg);
+  background-image: url(../img/background3-min.jpg);
   color: white;
 }
 
@@ -153,6 +153,7 @@ body {
 
 .titulo:hover {
   text-shadow: 0px 0px 10px #fc004f;
+  cursor: default;
 }
 
 .titulo__contenedor {
@@ -212,4 +213,14 @@ body {
 .music {
   display: flex;
   font-size: 10px;
+}
+
+.subtitulos {
+  font-family: 'Michroma', sans-serif;
+  text-shadow: 0px 0px 10px white;
+  font-weight: 600;
+}
+
+.soundclound__contenedor {
+  padding-bottom: 50px;
 }
