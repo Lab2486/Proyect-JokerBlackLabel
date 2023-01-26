@@ -84,10 +84,6 @@
 
 /*Store*/
 
-.music{
-    display: flex;
-    font-size: 10px;
-}
 
 .subtitulos{
     font-family: 'Michroma', sans-serif;
@@ -98,6 +94,63 @@
 .soundclound__contenedor{
     padding-bottom: 50px;
 }
+
+
+
+/*Minimalcast*/
+
+
+
+.youtube__contenedor{
+    padding-bottom: 50px;
+}
+
+
+
+.video-responsive {
+    overflow:hidden;
+    padding-bottom:400px;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+
+
+/*Contactos*/
+
+.main__contacto{
+    background-image: url(../img/SendDemosbanner.jpg);
+}
+
+
+.subtitulo__contenedor{
+    margin: 0;
+    padding-bottom: 40px;
+    text-align: center;
+
+}
+
+.formulario{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.form{
+    text-align: center;
+    border-radius: 3%;
+    background-color: #fc004f;
+}
+
+
+
+
 
 
 
