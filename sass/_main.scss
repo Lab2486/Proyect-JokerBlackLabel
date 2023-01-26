@@ -124,11 +124,6 @@
 
 /*Contactos*/
 
-.main__contacto{
-    background-image: url(../img/SendDemosbanner.jpg);
-}
-
-
 .subtitulo__contenedor{
     margin: 0;
     padding-bottom: 40px;
@@ -136,17 +131,19 @@
 
 }
 
-.formulario{
+.form{
     display: flex;
     justify-content: center;
     padding-bottom: 40px;
+
+    &__body{
+        text-align: center;
+        border-radius: 3%;
+        background-color: #fc004f;
+    }
 }
 
-.form{
-    text-align: center;
-    border-radius: 3%;
-    background-color: #fc004f;
-}
+
 
 
 

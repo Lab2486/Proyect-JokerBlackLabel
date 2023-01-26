@@ -118,6 +118,7 @@
 body {
   background-image: url(../img/background3-min.jpg);
   color: white;
+  position: relative;
 }
 
 .titulo {
@@ -220,23 +221,19 @@ body {
 }
 
 /*Contactos*/
-.main__contacto {
-  background-image: url(../img/SendDemosbanner.jpg);
-}
-
 .subtitulo__contenedor {
   margin: 0;
   padding-bottom: 40px;
   text-align: center;
 }
 
-.formulario {
+.form {
   display: flex;
   justify-content: center;
   padding-bottom: 40px;
 }
 
-.form {
+.form__body {
   text-align: center;
   border-radius: 3%;
   background-color: #fc004f;
@@ -246,6 +243,9 @@ body {
   display: flex;
   justify-content: space-around;
   background-color: #3c3c3c;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer__items {
