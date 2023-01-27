@@ -3,6 +3,15 @@
     &__logo{
         border: 1px solid gray;
         border-radius: 50%;
+        transform: rotateY(0deg);
+        transition: transform 1s;
+        
+
+        &:hover{
+            transform: rotateY(360deg);
+        }
+
+        
     }
 }
 
