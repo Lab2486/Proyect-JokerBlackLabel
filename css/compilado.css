@@ -236,7 +236,11 @@ body {
 .form__body {
   text-align: center;
   border-radius: 3%;
-  background-color: #fc004f;
+  background: #ff0038;
+  background: -moz-linear-gradient(180deg, #ff0038 0%, #5d0a1c 100%);
+  background: -webkit-linear-gradient(180deg, #ff0038 0%, #5d0a1c 100%);
+  background: linear-gradient(180deg, #ff0038 0%, #5d0a1c 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0038",endColorstr="#5d0a1c",GradientType=1);
 }
 
 .image {

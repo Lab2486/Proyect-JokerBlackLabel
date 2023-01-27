@@ -139,7 +139,13 @@
     &__body{
         text-align: center;
         border-radius: 3%;
-        background-color: #fc004f;
+        // background-color: #fc004f;   
+        background: rgb(255,0,56);
+        background: -moz-linear-gradient(180deg, rgba(255,0,56,1) 0%, rgba(93,10,28,1) 100%);
+        background: -webkit-linear-gradient(180deg, rgba(255,0,56,1) 0%, rgba(93,10,28,1) 100%);
+        background: linear-gradient(180deg, rgba(255,0,56,1) 0%, rgba(93,10,28,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ff0038",endColorstr="#5d0a1c",GradientType=1);
+        
     }
 }
 
