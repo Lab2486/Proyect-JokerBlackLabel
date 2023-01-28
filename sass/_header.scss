@@ -13,31 +13,35 @@
 
         
     }
-}
 
+    .nav-link{
+        font-family: 'Teko', sans-serif;
+        font-size: 2rem;
+        color: white;
+    
+        &:hover{
+            color: red;
+        }
+        
+    }
 
-
-.nav-link{
-    font-family: 'Teko', sans-serif;
-    font-size: 2rem;
-    color: white;
-
-    &:hover{
-        color: red;
+    .ul__nav{
+        align-items: center;
+        gap: 20px;
     }
     
+    .burger{
+        background-color: #ed0007;
+        border-radius: 20%;
+    }
+
+
+
+
 }
 
 
-.ul__nav{
-    align-items: center;
-    gap: 20px;
-}
 
-.burger{
-    background-color: #ed0007;
-    border-radius: 20%;
-}
 
 
 

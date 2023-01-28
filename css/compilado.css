@@ -95,22 +95,22 @@
   transform: rotateY(360deg);
 }
 
-.nav-link {
+.header .nav-link {
   font-family: 'Teko', sans-serif;
   font-size: 2rem;
   color: white;
 }
 
-.nav-link:hover {
+.header .nav-link:hover {
   color: red;
 }
 
-.ul__nav {
+.header .ul__nav {
   align-items: center;
   gap: 20px;
 }
 
-.burger {
+.header .burger {
   background-color: #ed0007;
   border-radius: 20%;
 }
@@ -194,19 +194,19 @@ body {
   padding-bottom: 50px;
 }
 
-/*Minimalcast*/
+/*Podcast*/
 .youtube__contenedor {
   padding-bottom: 50px;
 }
 
-.video-responsive {
+.youtube__contenedor .video-responsive {
   overflow: hidden;
   padding-bottom: 400px;
   position: relative;
   height: 0;
 }
 
-.video-responsive iframe {
+.youtube__contenedor .video-responsive iframe {
   left: 0;
   top: 0;
   height: 100%;

@@ -72,29 +72,35 @@
 
 
 
-/*Minimalcast*/
+/*Podcast*/
 
 
 
 .youtube__contenedor{
     padding-bottom: 50px;
+
+    .video-responsive {
+        overflow:hidden;
+        padding-bottom:400px;
+        position:relative;
+        height:0;  
+    }
+
+    
+    .video-responsive iframe{
+        left:0;
+        top:0;
+        height:100%;
+        width:100%;
+        position:absolute;
+    }
+
 }
 
 
 
-.video-responsive {
-    overflow:hidden;
-    padding-bottom:400px;
-    position:relative;
-    height:0;
-}
-.video-responsive iframe{
-    left:0;
-    top:0;
-    height:100%;
-    width:100%;
-    position:absolute;
-}
+
+
 
 
 /*Contactos*/
@@ -114,7 +120,6 @@
     &__body{
         text-align: center;
         border-radius: 3%;
-        // background-color: #fc004f;   
         background: rgb(255,0,56);
         background: -moz-linear-gradient(180deg, rgba(255,0,56,1) 0%, rgba(93,10,28,1) 100%);
         background: -webkit-linear-gradient(180deg, rgba(255,0,56,1) 0%, rgba(93,10,28,1) 100%);
